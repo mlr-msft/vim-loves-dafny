@@ -1,4 +1,4 @@
-# vim-loves-dafny
+﻿# vim ❤ dafny
 *vim-loves-dafny* is a [Vim] plugin for [Dafny], a [C#]-like language with support for formal verification.
 
 ## Features
