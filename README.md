@@ -18,7 +18,7 @@ If you're using [vim-plug], for example, follow the following steps:
 	```vim
 	call plug#begin()
 	" ...
-	Plug 'mlr-msft/vim-loves-dafny' {'for': 'fstar'}
+	Plug 'mlr-msft/vim-loves-dafny' {'for': 'dafny'}
 	" ...
 	call plug#end()
 	```
