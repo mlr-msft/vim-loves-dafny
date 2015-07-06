@@ -13,8 +13,11 @@ elseif exists("b:current_syntax") && b:current_syntax != "dafny"
   finish
 endif
 
+" reset syntax highlighting for the current buffer.
 syntax clear
+" dafny is case sensitive.
 syntax case match
+
 syntax keyword dafnyFunction function predicate copredicate
 syntax keyword dafnyMethod method lemma constructor colemma 
 syntax keyword dafnyTypeDef class datatype codatatype newtype type iterator trait extends
