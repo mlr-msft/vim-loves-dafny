@@ -1,4 +1,4 @@
-﻿# vim ❤ dafny
+# vim ❤ dafny
 *vim-loves-dafny* is a [Vim] plugin for [Dafny], a [C#]-like language with support for formal verification.
 
 ## Features
@@ -51,8 +51,8 @@ let mapleader=","
 let g:syntastic_mode_map = {
         \ "mode": "active",
         \ "passive_filetypes": ["dafny"] }
-" (optional) map :SyntasticCheck to <leader>c
-noremap <Leader>q :SyntasticCheck<CR>
+" (optional) map "save and check current file" to <leader>c
+noremap <Leader>c :w<CR>:SyntasticCheck<CR>
 ```
 
 Now, you can use `:SyntasticCheck` or, if you elected to do so, `,c` to check your dafny file.
