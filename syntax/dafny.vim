@@ -40,7 +40,9 @@ syntax match dafnyNumber /\d\+\>/
 syntax match dafnyIdentifier /\<\w\+\>/
 
 syntax match dafnyOperator "==>"
+syntax match dafnyOperator "<=="
 syntax match dafnyOperator "<==>"
+syntax match dafnyOperator "|"
 syntax match dafnyOperator "::"
 
 highlight link dafnyFunction Function
